@@ -37,3 +37,14 @@
 //     },
 //     etc.
 // ]
+
+// // 2. TAKE IT EASY
+// const rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "purple"];
+// console.log(rainbow[4]);
+// const sami = {
+//     favoriteFood: "noodles",
+//     hobby: "drawing",
+//     town: "Denver",
+//     favoriteDataType: "object"
+// };
+// console.log(sami.hobby);
