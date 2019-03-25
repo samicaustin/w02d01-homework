@@ -135,17 +135,31 @@ const bondFilms = [
     { "title" : "A View to a Kill", "year" : 1985, "actor" : "Roger Moore", "gross" : "$321,172,633" },
     { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
   ];
-const bondTitles = [];
-for (let i = 0; i < bondFilms.length; i++) {
-    bondTitles.push(bondFilms[i].title);
-}
-console.log(bondTitles);
+// const bondTitles = [];
+// for (let i = 0; i < bondFilms.length; i++) {
+//     bondTitles.push(bondFilms[i].title);
+// }
+// console.log(bondTitles);
 
-const oddBonds = [];
-for (let i = 0; i < bondFilms.length; i++) {
-    if (bondFilms[i].year % 2 === 1) {
-        oddBonds.push(bondFilms[i].title);
-    }  
-}
+// const oddBonds = [];
+// for (let i = 0; i < bondFilms.length; i++) {
+//     if (bondFilms[i].year % 2 === 1) {
+//         oddBonds.push(bondFilms[i].title);
+//     }  
+// }
+// console.log(oddBonds);
+let grossNum = 0;
+for (i = 0; i < bondFilms.length; i++) {
+    grossNum += parseInt(bondFilms[i].gross.replace(/[$ ,]/g , ''));
+    
+    };
+    console.log(grossNum);
 
-console.log(oddBonds);
+
+//     for (i = 0; i < bondFilms.length; i++) {
+//         let grossNum = parseInt(bondFilms[i].gross.replace('$', ''));
+//         console.log(grossNum);
+//     };
+
+// console.log(getGross(bondFilms));
+
