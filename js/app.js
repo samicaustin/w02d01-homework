@@ -148,12 +148,12 @@ const bondFilms = [
 //     }  
 // }
 // console.log(oddBonds);
-let grossNum = 0;
-for (i = 0; i < bondFilms.length; i++) {
-    grossNum += parseInt(bondFilms[i].gross.replace(/[$ ,]/g , ''));
+// let grossNum = 0;
+// for (i = 0; i < bondFilms.length; i++) {
+//     grossNum += parseInt(bondFilms[i].gross.replace(/[$ ,]/g , ''));
     
-    };
-    console.log(grossNum);
+//     };
+//     console.log(grossNum);
 
 
 //     for (i = 0; i < bondFilms.length; i++) {
@@ -162,4 +162,28 @@ for (i = 0; i < bondFilms.length; i++) {
 //     };
 
 // console.log(getGross(bondFilms));
+
+
+// Log the movie that has the character who starred in the least number 
+// of films. 
+
+const getLazyActor = (array) => { // set up function with an array as a param
+    let currLazy = {
+        name: '',
+        filmCount: ''
+    }; 
+    // set variable to hold the actor (so far) that appears the least
+    bondFilms.forEach((film) => { // iteration through the array
+         
+            if () { // if current value 
+                x = currLazy;
+                filmCount++;
+            } else {
+
+            }); 
+         }
+     };
+
+     // save every actor in an object and count their movie 
+ 
 
